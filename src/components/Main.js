@@ -1,10 +1,10 @@
 import React from "react";
 
-function Form(props) {
+function Main(props) {
     return (
-        <form className='container'>
-            <div className='main'>
-                <img className='main--img' src='https://media.tenor.com/images/0a1652de311806ce55820a7115993853/tenor.gif'  alt='sss'/>
+        <form>
+            <div className='section'>
+                <img className='section--img' src='https://media.tenor.com/images/0a1652de311806ce55820a7115993853/tenor.gif'  alt='sss'/>
             </div>
             {/*<link*/}
             {/*    href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean"*/}
@@ -31,4 +31,4 @@ function Form(props) {
     );
 }
 
-export default Form;
+export default Main;

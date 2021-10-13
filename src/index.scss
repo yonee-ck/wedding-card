@@ -1,10 +1,18 @@
-/*@import "~react-image-gallery/styles/css/image-gallery.css";*/
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
+body {
+  width: 100%;
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 20px;
+  //font: 1.6rem/1.25 Arial, sans-serif;
+  background-color: #ffffff;
+}
 * {
   font-family: 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium,
   HelveticaNeue, sans-serif;
   box-sizing: border-box;
-  color: #333333;
+  color: #24292f;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.01em;
@@ -22,10 +30,114 @@ h1 {
   justify-items: center;
   height: 100%;
 }
-.main {
-  padding: 45vh 0 30vh;
+.section {
+  &__banner {
+    width: 100%;
+    margin: 200px 30px 30px 30px;
+  }
+  &-group {
+    display: grid;
+    width: 100%;
+    border: 1px solid #eaeef2;
+    border-radius: 12px;
+    &__set {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      padding: 20px;
+    }
+    &--img {
+      width: 20vw;
+      border-radius: 50px;
+      margin-right: 16px;
+    }
+    &--row {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  &-gallery {
+    display: grid;
+  }
+  &-connect {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    &__group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+      align-self: center;
+      align-items: center;
+    }
+    &__set {
+      margin-bottom: 30px;
+    }
+  }
+  &-location {
+    display: grid;
+    &__map {
+      width: 90vw;
+      height: 90vw;
+    }
+  }
+  &-top {
+    width: 100%;
+  }
 }
-.main--img {
+.name {
+  font-size: 26px;
+  line-height: 1.25;
+  align-self: center;
+}
+.nickname {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  align-self: center;
+  color: #8b949e;
+}
+.title {
+  margin: 0 20px;
+  font-size: 16px;
+}
+.description {
+  margin: 10px 20px;
+}
+.last {
+  border-bottom: 1px solid #eaeef2;
+  padding: 5px 20px;
+  margin: 0;
+}
+.one {
+  grid-template-columns: 1fr;
+}
+.icon {
+  &--connect {
+    width: 60px;
+  }
+}
+.btnGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+}
+.btn {
+  &__kakao {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 20px;
+    background: url('https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png') no-repeat center;
+    background-size: 50px;
+    border: transparent;
+  }
+  &__copy {
+    margin-left: 5px;
+    border-radius: 20px;
+    border: transparent;
+  }
+}
+a {
+  text-decoration: none;
 }
 /* RESETS */
 /*
