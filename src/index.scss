@@ -4,12 +4,22 @@ body {
   width: 100%;
   max-width: 68rem;
   margin: 0 auto;
-  padding: 20px;
-  //font: 1.6rem/1.25 Arial, sans-serif;
   background-color: #ffffff;
 }
+@font-face {
+  font-family: 'BMHANNAAir';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BMHANNAPro';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
-  font-family: 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium,
+  font-family: 'BMHANNAAir', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium,
   HelveticaNeue, sans-serif;
   box-sizing: border-box;
   color: #24292f;
@@ -31,20 +41,34 @@ h1 {
   height: 100%;
 }
 .section {
+  background-size: contain !important;
+  width: 100vw;
+  height: 100vh;
+  &-main {
+    background: url("/assets/images/main.gif") no-repeat center #000000;
+  }
+  &-invitation {
+    background: url("/assets/images/invitation.png") no-repeat center #ffffff;
+  }
+  &--margin {
+    margin: 30px;
+  }
   &__banner {
     width: 100%;
-    margin: 200px 30px 30px 30px;
+    padding: 20px;
+    margin-top: 50px;
   }
-  &-group {
+  &-card {
     display: grid;
     width: 100%;
     border: 1px solid #eaeef2;
     border-radius: 12px;
-    &__set {
-      display: grid;
-      grid-template-columns: 1fr 4fr;
-      padding: 20px;
-    }
+    margin-bottom: 30px;
+  }
+  &__profile {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 20px;
     &--img {
       width: 20vw;
       border-radius: 50px;
@@ -55,10 +79,7 @@ h1 {
       grid-template-columns: 1fr;
     }
   }
-  &-gallery {
-    display: grid;
-  }
-  &-connect {
+  &__connect {
     display: grid;
     grid-template-rows: 2fr 1fr;
     &__group {
@@ -72,16 +93,49 @@ h1 {
       margin-bottom: 30px;
     }
   }
-  &-location {
+  &-gallery {
     display: grid;
-    &__map {
-      width: 90vw;
-      height: 90vw;
+  }
+  &-space {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-bottom: 20px;
+  }
+  &-paragraph {
+    margin-top: 10px;
+    &__title {
+      font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
+    }
+    &__description {
+
     }
   }
-  &-top {
-    width: 100%;
+  &-title {
+    text-align: center;
+    font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
+    font-size: 42px;
+    margin-top: 100px;
+    color: #ea728e;
   }
+  &-subtitle {
+    text-align: center;
+    font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
+    font-size: 18px;
+    color: #ea728e;
+    margin-bottom: 50px;
+  }
+}
+.line {
+  &-title {
+    font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
+    font-size: 32px;
+    margin: 10px;
+    color: #ea728e;
+  }
+}
+.map {
+  width: 80vw;
+  height: 80vw;
 }
 .name {
   font-size: 26px;
@@ -89,31 +143,55 @@ h1 {
   align-self: center;
 }
 .nickname {
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  align-self: center;
+  margin-right: 10px;
+  color: #8b949e;
+}
+.information {
+  font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   align-self: center;
   color: #8b949e;
+  p {
+    display: inline-block;
+  }
 }
 .title {
   margin: 0 20px;
   font-size: 16px;
 }
 .description {
-  margin: 10px 20px;
+  margin: 0 20px;
 }
 .last {
   border-bottom: 1px solid #eaeef2;
   padding: 5px 20px;
   margin: 0;
 }
+.top {
+  border-top: 1px solid #eaeef2;
+  padding: 5px 20px;
+}
 .one {
   grid-template-columns: 1fr;
 }
+.call {
+  display: inline-grid;
+  justify-self: center;
+  align-content: center;
+}
 .icon {
   &--connect {
-    width: 60px;
+    width: 40px;
+    margin: 5px;
   }
+}
+.banner {
+  width: 100%;
 }
 .btnGroup {
   display: grid;
@@ -122,19 +200,44 @@ h1 {
 }
 .btn {
   &__kakao {
-    width: 50px;
-    height: 50px;
-    margin-right: 5px;
+    width: 45px;
+    height: 45px;
     border-radius: 20px;
-    background: url('https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png') no-repeat center;
-    background-size: 50px;
+    background: url('/assets/images/icon_kakao.png') no-repeat center;
+    background-size: 45px;
     border: transparent;
+    position: fixed;
+    bottom: 9rem;
+    right: 1rem;
   }
   &__copy {
-    margin-left: 5px;
-    border-radius: 20px;
+    width: 45px;
+    height: 45px;
+    background: url("/assets/images/icon_link.png");
+    background-size: 45px;
     border: transparent;
+    position: fixed;
+    bottom: 5rem;
+    right: 1rem;
   }
+  &__top {
+    width: 45px;
+    height: 45px;
+    background: url("/assets/images/icon_top.png");
+    background-size: 45px;
+    border: transparent;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: -10;
+  }
+}
+.hide {
+  z-index: -10;
+}
+.active {
+  z-index: 10;
+  opacity: 1;
 }
 a {
   text-decoration: none;
