@@ -7,7 +7,6 @@ function Timeline(props) {
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                layout="1-column-left"
                 contentStyle={{ background: '#fbe3e8', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #fbe3e8' }}
                 date="2000"
@@ -21,7 +20,6 @@ function Timeline(props) {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                layout="1-column-left"
                 contentStyle={{ background: '#fbfab8', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #fbfab8' }}
                 date="2008"
@@ -35,7 +33,6 @@ function Timeline(props) {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                layout="1-column-left"
                 contentStyle={{ background: '#b4dcd9', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #b4dcd9' }}
                 date="2012"
@@ -49,7 +46,6 @@ function Timeline(props) {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                layout="1-column-left"
                 contentStyle={{ background: '#fbe3e8', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #fbe3e8' }}
                 date="2012.4.19"
@@ -63,7 +59,6 @@ function Timeline(props) {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                layout="1-column-left"
                 contentStyle={{ background: '#fbe3e8', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #fbe3e8' }}
                 date="2021.11.20"

@@ -2,7 +2,7 @@
 
 body {
   width: 100%;
-  max-width: 68rem;
+  max-width: 60rem;
   margin: 0 auto;
   background-color: #ffffff;
 }
@@ -51,6 +51,7 @@ h1 {
   background-size: contain !important;
   width: 100vw;
   height: 100vh;
+  max-width: 60rem;
   &-main {
     background: url("/assets/images/main.gif") no-repeat center #000000;
   }
@@ -59,6 +60,7 @@ h1 {
   }
   &--margin {
     margin: 30px;
+    max-width: 60rem;
   }
   &__banner {
     width: 100%;
@@ -80,6 +82,7 @@ h1 {
       width: 20vw;
       border-radius: 50px;
       margin-right: 16px;
+      max-width: 100px;
     }
     &--row {
       display: grid;
@@ -136,6 +139,11 @@ h1 {
     width: 100%;
     text-align: center;
     margin-top: 70%;
+    max-width: 60rem;
+    &-parent {
+      width: 100%;
+      max-width: 60rem;
+    }
   }
 }
 .date {
@@ -161,6 +169,7 @@ h1 {
 }
 .bg {
   width: 100%;
+  max-width: 60rem;
   &-opacity {
     position: relative;
     opacity: 0.5;
@@ -177,6 +186,8 @@ h1 {
 .map {
   width: 80vw;
   height: 80vw;
+  max-width: 60rem;
+  max-height: 60rem;
 }
 .name {
   font-size: 26px;
@@ -239,6 +250,7 @@ h1 {
 }
 .banner {
   width: 100%;
+  max-width: 60rem;
 }
 .btnGroup {
   display: grid;

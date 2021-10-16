@@ -33,7 +33,7 @@ function Dday(props) {
     }, []);
 
     return (
-            <div>
+            <div className='section-date-parent'>
                 <div className='section-date'>
                     <div className='date-title'>November 20th,<br/>2021</div>
                     <div className='date'>
