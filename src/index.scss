@@ -66,7 +66,7 @@ h1 {
   &__profile {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     &--img {
       width: 20vw;
       border-radius: 50px;
@@ -157,6 +157,12 @@ h1 {
   p {
     display: inline-block;
   }
+}
+.separation {
+  padding: 5px 20px 0 20px;
+}
+.end {
+  padding: 5px 20px 20px 20px;
 }
 .title {
   margin: 0 20px;
