@@ -98,10 +98,11 @@ function Gallery(props) {
         setCurrentImage(0);
         setViewerIsOpen(false);
     };
+    const columnsCount = 3;
 
     return (
         <div className='section-gallery'>
-            <PhotoGallery photos={photos} columns='3' direction='column' onClick={openLightbox} />
+            <PhotoGallery photos={photos} columns={columnsCount} direction='column' onClick={openLightbox} />
             <ModalGateway>
                 {viewerIsOpen ? (
                     <Modal onClose={closeLightbox}>

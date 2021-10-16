@@ -1,12 +1,14 @@
 import React, {Component} from "react";
 import './App.css';
 import Main from './components/Main';
-import Gallery from "./components/Gallery";
+import Dday from './components/Dday';
 import Connect from "./components/Connect";
+import Gallery from "./components/Gallery";
 import Location from "./components/Location";
+import ScrollButton from "./components/ScrollButton";
 import ozoBanner from "./assets/images/banner_ozo.png";
 import doreBanner from "./assets/images/banner_dore.png";
-import ScrollButton from "./components/ScrollButton";
+import invitationImg from "./assets/images/invitation.png";
 
 class App extends Component {
     state = {
@@ -17,8 +19,10 @@ class App extends Component {
         return (
             <div className='container'>
                 <ScrollButton />
-                <Main/>
-                <div className='section section-invitation' />
+                <Main />
+                <Dday />
+                <img className='bg' src={invitationImg} alt='invitation' />
+                {/*<div className='section section-invitation' />*/}
                 <img className='banner' src={doreBanner}  alt='도레' />
                 <div className='section--margin'>
                     <Connect />
