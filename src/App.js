@@ -32,6 +32,11 @@ class App extends Component {
                     <div className='section-subtitle'>LOCATION</div>
                     <Location />
                 </div>
+                <div className='footer'>
+                    Copyright 2021.<br/>
+                    @kingbbode @yonee<br/>
+                    All rights reserved.
+                </div>
             </div>
         );
     }
