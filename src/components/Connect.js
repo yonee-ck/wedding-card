@@ -9,6 +9,7 @@ import PHImg from "../assets/images/ph.png";
 import DRImg from "../assets/images/dore.jpg";
 import OZImg from "../assets/images/ozo.png";
 import JHSImg from "../assets/images/jhs.png";
+import KSGImg from "../assets/images/ksg.jpg";
 
 class Connect extends Component {
     state = { copied: false };
@@ -60,7 +61,7 @@ class Connect extends Component {
                 <div className='line-title'>혼주</div>
                 <div className='section-card'>
                     <div className='section__profile'>
-                        <img className='section__profile--img' src={YGImg}  alt='권순갑'/>
+                        <img className='section__profile--img' src={KSGImg}  alt='권순갑'/>
                         <div className='section__profile--row'>
                             <span className='name'><span className='nickname'>신랑측 혼주</span>권순갑</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-8733-1857</span>

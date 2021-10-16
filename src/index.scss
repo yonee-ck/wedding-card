@@ -1,3 +1,5 @@
+@import '~react-vertical-timeline-component/style.min.css';
+
 body {
   width: 100%;
   max-width: 68rem;
@@ -286,4 +288,9 @@ h1 {
 }
 a {
   text-decoration: none;
+}
+
+/* timeline style */
+.vertical-timeline-element-content {
+  border-top: 3px solid #ea728e;
 }

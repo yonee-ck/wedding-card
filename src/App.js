@@ -5,6 +5,7 @@ import Dday from './components/Dday';
 import Connect from "./components/Connect";
 import Gallery from "./components/Gallery";
 import Location from "./components/Location";
+import Timeline from "./components/Timeline";
 import ScrollButton from "./components/ScrollButton";
 import ozoBanner from "./assets/images/banner_ozo.png";
 import doreBanner from "./assets/images/banner_dore.png";
@@ -24,6 +25,11 @@ class App extends Component {
                 <img className='bg' src={invitationImg} alt='invitation' />
                 {/*<div className='section section-invitation' />*/}
                 <img className='banner' src={doreBanner}  alt='도레' />
+                <div className='section--margin'>
+                    <div className='section-title'>타임라인</div>
+                    <div className='section-subtitle'>TIME LINE</div>
+                </div>
+                <Timeline />
                 <div className='section--margin'>
                     <Connect />
                 </div>
