@@ -4,10 +4,11 @@ import CallImg from "../assets/images/icon_phone.png";
 import MessageImg from "../assets/images/icon_message.png";
 import YHImg from "../assets/images/yh.png";
 import YGImg from "../assets/images/yg.png";
-import CHSImg from "../assets/images/chs.jpg";
-import PHImg from "../assets/images/ph.jpg";
+import CHSImg from "../assets/images/chs.png";
+import PHImg from "../assets/images/ph.png";
 import DRImg from "../assets/images/dore.jpg";
 import OZImg from "../assets/images/ozo.png";
+import JHSImg from "../assets/images/jhs.png";
 
 class Connect extends Component {
     state = { copied: false };
@@ -54,17 +55,17 @@ class Connect extends Component {
                         <a href='sms:01037757341' className='call'><img className='icon--connect' src={MessageImg} alt='메시지 보내기'/></a>
                     </div>
                 </div>
-                <div className='line-title'>혼주들</div>
+                <div className='line-title'>혼주</div>
                 <div className='section-card'>
                     <div className='section__profile'>
-                        <img className='section__profile--img' src={YGImg}  alt='권순'/>
+                        <img className='section__profile--img' src={YGImg}  alt='권순갑'/>
                         <div className='section__profile--row'>
                             <span className='name'><span className='nickname'>신랑측 혼주</span>권순갑</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-3775-7341</span>
                             <CopyToClipboard onCopy={this.handleCopy} text='59062501048264'>
                                 <span className='information'>&#127974;&nbsp;&nbsp;신한&nbsp;&nbsp;5906-250104-8264</span>
                             </CopyToClipboard>
-                            <span className='information'>&#128172;&nbsp;&nbsp;와주셔서 감사합니다~!!</span>
+                            <span className='information'>&#128172;&nbsp;&nbsp;♡ 축하와 응원으로 축복해주세요 ♡</span>
                         </div>
                     </div>
                     <div className='section__connect__group top'>
@@ -74,14 +75,14 @@ class Connect extends Component {
                 </div>
                 <div className='section-card'>
                     <div className='section__profile'>
-                        <img className='section__profile--img' src={YGImg}  alt='정현'/>
+                        <img className='section__profile--img' src={JHSImg}  alt='정현'/>
                         <div className='section__profile--row'>
                             <span className='name'><span className='nickname'>신랑측 혼주</span>정현숙</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-3775-7341</span>
                             <CopyToClipboard onCopy={this.handleCopy} text='59062501048264'>
                                 <span className='information'>&#127974;&nbsp;&nbsp;신한&nbsp;&nbsp;5906-250104-8264</span>
                             </CopyToClipboard>
-                            <span className='information'>&#128172;&nbsp;&nbsp;와주셔서 감사합니다~!!</span>
+                            <span className='information'>&#128172;&nbsp;&nbsp;♡ 친지분들과 여러분들 모시고 화촉을 밝히게 되었음을 알리오니 두사람 축복해주세요 ♡</span>
                         </div>
                     </div>
                     <div className='section__connect__group top'>
