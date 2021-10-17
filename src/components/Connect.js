@@ -2,12 +2,12 @@ import React, {Component} from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard/lib/Component";
 import CallImg from "../assets/images/icon_phone.png";
 import MessageImg from "../assets/images/icon_message.png";
-import YHImg from "../assets/images/yh.png";
-import YGImg from "../assets/images/yg.png";
+import YHImg from "../assets/images/kyh.jpg";
+import YGImg from "../assets/images/kyg.jpg";
 import CHSImg from "../assets/images/chs.png";
 import PHImg from "../assets/images/ph.png";
 import DRImg from "../assets/images/dore.jpg";
-import OZImg from "../assets/images/ozo.png";
+import OZImg from "../assets/images/ozo.jpg";
 import JHSImg from "../assets/images/jhs.png";
 import KSGImg from "../assets/images/ksg.jpg";
 
