@@ -20,6 +20,7 @@ const KaKaoShareButton=()=> {
                 {
                     title: '청첩장 보러가기',
                     link: {
+                        webUrl: 'https://wedding.co-duck.com',
                         mobileWebUrl: 'https://wedding.co-duck.com'
                     }
                 }
