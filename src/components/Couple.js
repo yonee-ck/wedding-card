@@ -33,7 +33,7 @@ class Connect extends Component {
                             <span className='name'><span className='nickname'>신부</span>김연희</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-6439-2034</span>
                             <CopyToClipboard onCopy={this.handleCopy} text='59062501048264'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;국민&nbsp;&nbsp;5906-250104-8264</span>
+                                <span className='information'>&#127974;&nbsp;&nbsp;국민&nbsp;&nbsp;<span className='information account'>5906-250104-8264</span></span>
                             </CopyToClipboard>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ class Connect extends Component {
                             <span className='name'><span className='nickname'>신랑</span>권용근</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-3775-7341</span>
                             <CopyToClipboard onCopy={this.handleCopy} text='05206335701014'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;기업&nbsp;&nbsp;052-063357-01-014</span>
+                                <span className='information'>&#127974;&nbsp;&nbsp;기업&nbsp;&nbsp;<span className='information account'>052-063357-01-014</span></span>
                             </CopyToClipboard>
                         </div>
                     </div>

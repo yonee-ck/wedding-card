@@ -37,7 +37,7 @@ class Connect extends Component {
                             <span className='name'><span className='nickname'>신랑측 혼주</span>권순갑</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-8733-1857</span>
                             <CopyToClipboard onCopy={this.handleCopy} text='1002951593148'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;1002-951-593148</span>
+                                <span className='information'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;<span className='information account'>1002-951-593148</span></span>
                             </CopyToClipboard>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ class Connect extends Component {
                             <span className='name'><span className='nickname'>신랑측 혼주</span>정현숙</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-3804-1857</span>
                             <CopyToClipboard onCopy={this.handleCopy} text='06928256812001'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;069-282568-12-001</span>
+                                <span className='information'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;<span className='information account'>069-282568-12-001</span></span>
                             </CopyToClipboard>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ class Connect extends Component {
                             <span className='name'><span className='nickname'>신부측 혼주</span>최현숙</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-3782-0519</span>
                             <CopyToClipboard onCopy={this.handleCopy} text='07300104234523'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;국민&nbsp;&nbsp;073001-04-234523</span>
+                                <span className='information'>&#127974;&nbsp;&nbsp;국민&nbsp;&nbsp;<span className='information account'>073001-04-234523</span></span>
                             </CopyToClipboard>
                         </div>
                     </div>
