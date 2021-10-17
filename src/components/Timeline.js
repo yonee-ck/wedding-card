@@ -14,10 +14,9 @@ function Timeline(props) {
                 iconStyle={{ background: '#ea728e', color: '#fff' }}
                 icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
-                <h3 className="vertical-timeline-element-title">초등학교</h3>
-                <h4 className="vertical-timeline-element-subtitle">4학년 6반</h4>
+                <h className="vertical-timeline-element-title">첫만남</h>
                 <p>
-                    같은 반 친구 (안 친한 사이)
+                    초등학교 같은 반 친구
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -28,10 +27,9 @@ function Timeline(props) {
                 iconStyle={{ background: '#ea728e', color: '#fbe3e8' }}
                 icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
-                <h3 className="vertical-timeline-element-title">대학교 입학</h3>
-                <h4 className="vertical-timeline-element-subtitle">컴퓨터공학 신입생 OT</h4>
+                <h3 className="vertical-timeline-element-title">재회</h3>
                 <p>
-                    같은 과 동기
+                    대학교 과 동기
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -42,10 +40,9 @@ function Timeline(props) {
                 iconStyle={{ background: '#ea728e', color: '#fff' }}
                 icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
-                <h3 className="vertical-timeline-element-title">학교 복학</h3>
-                <h4 className="vertical-timeline-element-subtitle">복학 시기 겹침</h4>
+                <h3 className="vertical-timeline-element-title">두번째 재회</h3>
                 <p>
-                    동기들과 같이 복학하며 가까워짐
+                    같은 시기에 복학
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -57,7 +54,6 @@ function Timeline(props) {
                 icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
                 <h3 className="vertical-timeline-element-title">오늘부터 1일</h3>
-                <h4 className="vertical-timeline-element-subtitle">여의도 벚꽃 축제</h4>
                 <p>
                     봄바람 휘날리며~ 흩날리는 벚꽃잎이~
                 </p>
@@ -70,10 +66,9 @@ function Timeline(props) {
                 iconStyle={{ background: '#ea728e', color: '#fff' }}
                 icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
-                <h3 className="vertical-timeline-element-title">결혼식</h3>
-                <h4 className="vertical-timeline-element-subtitle">명동 라루체 웨딩홀</h4>
+                <h3 className="vertical-timeline-element-title">결혼</h3>
                 <p>
-                    오늘부터 또 1일
+                    새로운 시작. 다시 1일 ❤️
                 </p>
             </VerticalTimelineElement>
         </VerticalTimeline>
