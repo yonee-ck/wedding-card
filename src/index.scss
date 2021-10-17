@@ -165,7 +165,7 @@ h1 {
     grid-template-columns: 1fr;
     font-size: 30px;
     text-align: center;
-    color: #65686c;
+    color: #000000;
     font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
   }
   &-format {
@@ -216,14 +216,14 @@ h1 {
   font-weight: 300;
   align-self: center;
   margin-right: 10px;
-  color: #8b949e;
+  color: #4b4b4b;
 }
 .information {
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   align-self: center;
-  color: #8b949e;
+  color: #4b4b4b;
   p {
     display: inline-block;
   }

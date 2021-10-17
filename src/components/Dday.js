@@ -35,7 +35,7 @@ function Dday(props) {
     return (
             <div className='section-date-parent'>
                 <div className='section-date'>
-                    <div className='date-title'>November 20th,<br/>2021</div>
+                    <div className='date-title'>2021년 11월 20일 15시 30분<br/>라루체 4F 루아르홀</div>
                     <div className='date'>
                         <div className='date-format'>
                             <div className='date-data'>{dDay.month}</div>
