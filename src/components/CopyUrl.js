@@ -18,7 +18,8 @@ class CopyUrl extends Component {
             this.state.copyStatus = true;
             this.props.onCreate(this.state);
             const textField = document.createElement('textarea');
-            textField.innerText = document.location.href
+            // textField.innerText = document.location.href
+            textField.innerText = 'https://wedding.co-duck.com';
             document.body.appendChild(textField);
             textField.select();
             document.execCommand('copy');
