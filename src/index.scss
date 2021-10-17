@@ -124,9 +124,11 @@ h1 {
   &-paragraph {
     margin-top: 10px;
     &__title {
+      font-size: 18px;
       font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
     }
     &__description {
+      font-size: 18px;
     }
   }
   &-title {
@@ -220,7 +222,7 @@ h1 {
   color: #4b4b4b;
 }
 .information {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 300;
   align-self: center;
@@ -234,6 +236,7 @@ h1 {
   text-decoration: underline;
 }
 .separation {
+  font-size: 16px;
   padding: 5px 20px 10px 20px;
 }
 .end {
@@ -336,6 +339,7 @@ a {
 /* scroll style */
 html {
   scroll-behavior: smooth;
+  --scroll-behavior: smooth;
 }
 @media (max-width:640px) {
   .arrow-down {
@@ -407,11 +411,11 @@ html {
 }
 
 .vertical-timeline-element-description {
-  font-size: 15px !important;
+  font-size: 16px !important;
 }
 
 .vertical-timeline-element-date {
-  font-size: 15px !important;
+  font-size: 16px !important;
 }
 
 .vertical-timeline {

@@ -12,6 +12,7 @@ const KaKaoShareButton=()=> {
                 description: '따뜻한 마음으로 새로운 시작을 함께 축복해주세요 :)',
                 imageUrl: 'https://static.co-duck.com/wedding/share.jpg',
                 link: {
+                    webUrl: 'https://wedding.co-duck.com',
                     mobileWebUrl: 'https://wedding.co-duck.com'
                 }
             },
