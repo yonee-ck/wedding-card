@@ -1,4 +1,5 @@
 @import '~react-vertical-timeline-component/style.min.css';
+@import '~react-toastify/dist/ReactToastify.css';
 
 body {
   width: 100%;
@@ -308,4 +309,15 @@ a {
 }
 .timeline-line::before {
   background: #ea728e;
+}
+
+/* toastify style */
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  background: #ea728e;
+}
+.Toastify__toast-body > div:last-child {
+  color: #ffffff;
+}
+svg {
+  fill: #ffffff;
 }

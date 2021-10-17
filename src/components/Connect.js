@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard/lib/Component";
+import {ToastContainer, toast} from "react-toastify";
 import CallImg from "../assets/images/icon_phone.png";
 import MessageImg from "../assets/images/icon_message.png";
 import YHImg from "../assets/images/kyh.jpg";
@@ -14,13 +15,22 @@ import KSGImg from "../assets/images/ksg.jpg";
 class Connect extends Component {
     state = { copied: false };
     handleCopy = () => {
+        this.notify();
         this.setState({copied: true});
         setTimeout(() => { this.state.copied = false}, 1000);
+    }
+
+    notify = () => {
+        toast.success('계좌번호가 복사되었습니다.', {
+            position: toast.POSITION.BOTTOM_CENTER,
+            theme: 'colored'
+        });
     }
 
     render() {
         return (
             <div>
+                <ToastContainer hideProgressBar={true} autoClose={800} pauseOnHover={false} closeButton={false} />
                 <div className='line-title'>주인공</div>
                 <div className='section-card'>
                     <div className='section__profile'>
@@ -113,7 +123,7 @@ class Connect extends Component {
                         <div className='section__profile--row'>
                             <span className='name'><span className='nickname'>신부측 혼주</span>최현숙</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-3782-0519</span>
-                            <CopyToClipboard onCopy={this.handleCopy} text='59062501048264'>
+                            <CopyToClipboard onCopy={this.handleCopy} text='07300104234523'>
                                 <span className='information'>&#127974;&nbsp;&nbsp;국민&nbsp;&nbsp;073001-04-234523</span>
                             </CopyToClipboard>
                         </div>
