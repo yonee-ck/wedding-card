@@ -329,6 +329,20 @@ a {
 }
 
 /* timeline style */
+
+.vertical-timeline-element-title {
+  font-size: 18px;
+  font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
+}
+
+.vertical-timeline-element-description {
+  font-size: 15px;
+}
+
+.vertical-timeline-element-date {
+  font-size: 15px;
+}
+
 .vertical-timeline {
   width: 70%;
 }
