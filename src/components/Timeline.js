@@ -1,16 +1,18 @@
 import React from "react";
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 function Timeline(props) {
 
     return (
-        <VerticalTimeline>
+        <VerticalTimeline className='timeline-line'>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#fbe3e8', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #fbe3e8' }}
                 date="2000"
-                iconStyle={{ background: '#fbe3e8', color: '#fff' }}
+                iconStyle={{ background: '#ea728e', color: '#fff' }}
+                icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
                 <h3 className="vertical-timeline-element-title">초등학교</h3>
                 <h4 className="vertical-timeline-element-subtitle">4학년 6반</h4>
@@ -20,10 +22,11 @@ function Timeline(props) {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#fbfab8', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid #fbfab8' }}
+                contentStyle={{ background: '#fbe3e8', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid #fbe3e8' }}
                 date="2008"
                 iconStyle={{ background: '#ea728e', color: '#fbe3e8' }}
+                icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
                 <h3 className="vertical-timeline-element-title">대학교 입학</h3>
                 <h4 className="vertical-timeline-element-subtitle">컴퓨터공학 신입생 OT</h4>
@@ -33,10 +36,11 @@ function Timeline(props) {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#b4dcd9', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid #b4dcd9' }}
+                contentStyle={{ background: '#fbe3e8', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid #fbe3e8' }}
                 date="2012"
                 iconStyle={{ background: '#ea728e', color: '#fff' }}
+                icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
                 <h3 className="vertical-timeline-element-title">학교 복학</h3>
                 <h4 className="vertical-timeline-element-subtitle">복학 시기 겹침</h4>
@@ -50,6 +54,7 @@ function Timeline(props) {
                 contentArrowStyle={{ borderRight: '7px solid #fbe3e8' }}
                 date="2012.4.19"
                 iconStyle={{ background: '#ea728e', color: '#fff' }}
+                icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
                 <h3 className="vertical-timeline-element-title">오늘부터 1일</h3>
                 <h4 className="vertical-timeline-element-subtitle">여의도 벚꽃 축제</h4>
@@ -63,6 +68,7 @@ function Timeline(props) {
                 contentArrowStyle={{ borderRight: '7px solid #fbe3e8' }}
                 date="2021.11.20"
                 iconStyle={{ background: '#ea728e', color: '#fff' }}
+                icon={<FavoriteIcon style={{ fill: '#fff' }} />}
             >
                 <h3 className="vertical-timeline-element-title">결혼식</h3>
                 <h4 className="vertical-timeline-element-subtitle">명동 라루체 웨딩홀</h4>

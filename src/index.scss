@@ -303,6 +303,9 @@ a {
 }
 
 /* timeline style */
-.vertical-timeline-element-content {
-  border-top: 3px solid #ea728e;
+.vertical-timeline {
+  width: 70%;
+}
+.timeline-line::before {
+  background: #ea728e;
 }
