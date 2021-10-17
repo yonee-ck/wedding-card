@@ -37,7 +37,7 @@ class Connect extends Component {
                             <span className='name'><span className='nickname'>신랑측 혼주</span>권순갑</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-8733-1857</span>
                             <CopyToClipboard onCopy={this.handleCopy} text='1002951593148'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;100-29515-93-148</span>
+                                <span className='information'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;1002-951-593148</span>
                             </CopyToClipboard>
                         </div>
                     </div>

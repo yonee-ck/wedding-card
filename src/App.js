@@ -23,6 +23,7 @@ class App extends Component {
                 <ScrollButton />
                 <Main />
                 <div className='text-banner'>Wedding invitation</div>
+                <a name='start' />
                 <Dday />
                 <img className='bg' src={invitationImg} alt='invitation' />
                 <img className='banner' src={doreBanner}  alt='도레' />
