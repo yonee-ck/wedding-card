@@ -3,8 +3,6 @@ import { CopyToClipboard } from "react-copy-to-clipboard/lib/Component";
 import {ToastContainer, toast} from "react-toastify";
 import CallImg from "../assets/images/icon_phone.png";
 import MessageImg from "../assets/images/icon_message.png";
-import YHImg from "../assets/images/kyh.jpg";
-import YGImg from "../assets/images/kyg.jpg";
 import CHSImg from "../assets/images/chs.png";
 import PHImg from "../assets/images/ph.png";
 import DRImg from "../assets/images/dore.jpg";
@@ -31,43 +29,6 @@ class Connect extends Component {
         return (
             <div>
                 <ToastContainer hideProgressBar={true} autoClose={800} pauseOnHover={false} closeButton={false} />
-                <div className='line-title'>주인공</div>
-                <div className='section-card'>
-                    <div className='section__profile'>
-                        <img className='section__profile--img' src={YHImg}  alt='김연희'/>
-                        <div className='section__profile--row'>
-                            <span className='name'><span className='nickname'>신부</span>김연희</span>
-                            <span className='information'>&#128222;&nbsp;&nbsp;010-6439-2034</span>
-                            <CopyToClipboard onCopy={this.handleCopy} text='59062501048264'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;국민&nbsp;&nbsp;5906-250104-8264</span>
-                            </CopyToClipboard>
-                        </div>
-                    </div>
-                    <span className='information separation'>&#128150;&nbsp;&nbsp;김준수, 스테이씨, (구)동방신기, JYJ, 와조스키</span>
-                    <span className='information separation end'>&#128172;&nbsp;&nbsp;와주셔서 감사합니다~!!</span>
-                    <div className='section__connect__group top'>
-                        <a href='tel:01064392034' className='call'><img className='icon--connect' src={CallImg} alt='통화하기' /></a>
-                        <a href='sms:01064392034' className='call'><img className='icon--connect' src={MessageImg} alt='메시지 보내기'/></a>
-                    </div>
-                </div>
-                <div className='section-card'>
-                    <div className='section__profile'>
-                        <img className='section__profile--img' src={YGImg}  alt='권용근'/>
-                        <div className='section__profile--row'>
-                            <span className='name'><span className='nickname'>신랑</span>권용근</span>
-                            <span className='information'>&#128222;&nbsp;&nbsp;010-3775-7341</span>
-                            <CopyToClipboard onCopy={this.handleCopy} text='05206335701014'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;기업&nbsp;&nbsp;052-063357-01-014</span>
-                            </CopyToClipboard>
-                        </div>
-                    </div>
-                    <span className='information separation'>&#128150;&nbsp;&nbsp;개발, 전자제품</span>
-                    <span className='information separation end'>&#128172;&nbsp;&nbsp;와주셔서 감사합니다~!!</span>
-                    <div className='section__connect__group top'>
-                        <a href='tel:01037757341' className='call'><img className='icon--connect' src={CallImg} alt='통화하기' /></a>
-                        <a href='sms:01037757341' className='call'><img className='icon--connect' src={MessageImg} alt='메시지 보내기'/></a>
-                    </div>
-                </div>
                 <div className='line-title'>혼주</div>
                 <div className='section-card'>
                     <div className='section__profile'>

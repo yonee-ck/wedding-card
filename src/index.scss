@@ -19,6 +19,10 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "PLAYBALL";
+  src: url("./assets/font/Playball-Regular.ttf");
+}
 * {
   font-family: 'BMHANNAAir', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium,
   HelveticaNeue, sans-serif;
@@ -62,6 +66,9 @@ h1 {
   &--margin {
     margin: 30px;
     max-width: 60rem;
+    &__gallery {
+      width: 85%
+    }
   }
   &__banner {
     width: 100%;
@@ -106,6 +113,7 @@ h1 {
   }
   &-gallery {
     display: grid;
+    margin-bottom: 50px;
   }
   &-space {
     display: grid;
@@ -124,7 +132,7 @@ h1 {
     text-align: center;
     font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
     font-size: 42px;
-    margin-top: 100px;
+    //margin-top: 100px;
     color: #ea728e;
   }
   &-subtitle {
@@ -132,7 +140,7 @@ h1 {
     font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
     font-size: 18px;
     color: #ea728e;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   &-date {
     position: absolute;
@@ -157,6 +165,8 @@ h1 {
     grid-template-columns: 1fr;
     font-size: 30px;
     text-align: center;
+    color: #65686c;
+    font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
   }
   &-format {
     display: grid;
@@ -164,13 +174,18 @@ h1 {
     justify-self: center;
   }
   &-data {
+    color: #65686c;
     font-size: 30px;
-    font-family: 'BMHANNAPro', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
+    font-family: "BMHANNAAir", "Noto Sans KR", "맑은고딕", MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
+  }
+  &-unit {
+    color: #65686c;
   }
 }
 .bg {
   width: 100%;
   max-width: 60rem;
+  margin: 30px 0;
   &-opacity {
     position: relative;
     opacity: 0.5;
@@ -214,10 +229,10 @@ h1 {
   }
 }
 .separation {
-  padding: 5px 20px 0 20px;
+  padding: 5px 20px 10px 20px;
 }
 .end {
-  padding: 5px 20px 20px 20px;
+  padding-top: 0;
 }
 .title {
   margin: 0 20px;
@@ -252,6 +267,7 @@ h1 {
 .banner {
   width: 100%;
   max-width: 60rem;
+  margin-bottom: 30px;
 }
 .btnGroup {
   display: grid;
@@ -301,6 +317,15 @@ h1 {
 }
 a {
   text-decoration: none;
+}
+.text {
+  &-banner {
+    font-family: 'PLAYBALL', 'Noto Sans KR', '맑은고딕', MalgunGothic, AppleSDGothicNeo-Medium, HelveticaNeue, sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #e1e5e9;
+    font-weight: bold;
+  }
 }
 
 /* timeline style */

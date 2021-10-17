@@ -39,23 +39,23 @@ function Dday(props) {
                     <div className='date'>
                         <div className='date-format'>
                             <div className='date-data'>{dDay.month}</div>
-                            <div>months</div>
+                            <div className='date-unit'>months</div>
                         </div>
                         <div className='date-format'>
                             <div className='date-data'>{dDay.day}</div>
-                            <div>days</div>
+                            <div className='date-unit'>days</div>
                         </div>
                         <div className='date-format'>
                             <div className='date-data'>{dDay.hour}</div>
-                            <div>hours</div>
+                            <div className='date-unit'>hours</div>
                         </div>
                         <div className='date-format'>
                             <div className='date-data'>{dDay.minute}</div>
-                            <div>minutes</div>
+                            <div className='date-unit'>minutes</div>
                         </div>
                         <div className='date-format'>
                             <div className='date-data'>{dDay.second}</div>
-                            <div>seconds</div>
+                            <div className='date-unit'>seconds</div>
                         </div>
                     </div>
                 </div>
