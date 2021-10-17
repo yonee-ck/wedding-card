@@ -35,7 +35,6 @@ body {
   word-break: keep-all;
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
 }
 h1 {
   margin: 0;
@@ -339,10 +338,9 @@ html {
     display: grid;
     margin-top: auto;
     margin-bottom: 20px;
-
     span {
       position: absolute;
-      bottom: 0;
+      bottom: 15px;
       left: 50%;
       width: 24px;
       height: 24px;
@@ -358,13 +356,13 @@ html {
     }
 
     span:nth-of-type(3) {
-      bottom: 32px;
+      bottom: 47px;
       -webkit-animation-delay: 0s;
       animation-delay: 0s;
     }
 
     span:nth-of-type(2) {
-      bottom: 16px;
+      bottom: 31px;
       -webkit-animation-delay: .15s;
       animation-delay: .15s;
     }
