@@ -3,7 +3,7 @@
 
 body {
   width: 100%;
-  max-width: 60rem;
+  max-width: 640px;
   margin: 0 auto;
   overflow-x: hidden;
   background-color: #ffffff;
@@ -57,7 +57,7 @@ h1 {
   background-size: contain !important;
   width: 100%;
   height: 100vh;
-  max-width: 60rem;
+  max-width: 640px;
   &-main {
     display: grid;
     background: url("/assets/images/main.gif") no-repeat center #000000;
@@ -67,7 +67,7 @@ h1 {
   }
   &--margin {
     padding: 30px;
-    max-width: 60rem;
+    max-width: 640px;
     box-sizing: border-box;
     &__gallery {
       width: 100%
@@ -153,11 +153,11 @@ h1 {
     width: 100%;
     text-align: center;
     margin-top: 70%;
-    max-width: 60rem;
+    max-width: 640px;
     &-parent {
       position: relative;
       width: 100%;
-      max-width: 60rem;
+      max-width: 640px;
     }
   }
 }
@@ -190,7 +190,7 @@ h1 {
 }
 .bg {
   width: 100%;
-  max-width: 60rem;
+  max-width: 640px;
   margin: 30px 0;
   &-opacity {
     opacity: 0.5;
@@ -207,8 +207,8 @@ h1 {
 .map {
   //width: 80vw;
   height: 80vw;
-  max-width: 60rem;
-  max-height: 60rem;
+  max-width: 640px;
+  max-height: 640px;
 }
 .name {
   font-size: 26px;
@@ -276,7 +276,7 @@ h1 {
 }
 .banner {
   width: 100%;
-  max-width: 60rem;
+  max-width: 640px;
   margin-bottom: 30px;
 }
 .btnGroup {
