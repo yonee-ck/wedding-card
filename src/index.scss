@@ -5,6 +5,7 @@ body {
   width: 100%;
   max-width: 60rem;
   margin: 0 auto;
+  overflow-x: hidden;
   background-color: #ffffff;
 }
 @font-face {
@@ -55,7 +56,6 @@ h1 {
 .section {
   background-size: contain !important;
   width: 100%;
-  //width: 100vw;
   height: 100vh;
   max-width: 60rem;
   &-main {
@@ -341,6 +341,7 @@ a {
 html {
   scroll-behavior: smooth;
   --scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 @media (max-width:640px) {
   .arrow-down {
