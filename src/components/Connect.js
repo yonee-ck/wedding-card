@@ -36,12 +36,12 @@ class Connect extends Component {
                         <div className='section__profile--row'>
                             <span className='name'><span className='nickname'>신랑측 혼주</span>권순갑</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-8733-1857</span>
-                            <CopyToClipboard onCopy={this.handleCopy} text='1002951593148'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;<span className='information account'>1002-951-593148</span></span>
-                            </CopyToClipboard>
                         </div>
                     </div>
-                    <span className='information separation'>&#128172;&nbsp;&nbsp;축하와 응원으로 축복해주세요~</span>
+                    <CopyToClipboard onCopy={this.handleCopy} text='1002951593148'>
+                        <span className='information separation first'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;<span className='information account'>1002-951-593148</span></span>
+                    </CopyToClipboard>
+                    <span className='information separation end'>&#128172;&nbsp;&nbsp;축하와 응원으로 축복해주세요~</span>
                     <div className='section__connect__group top'>
                         <a href='tel:01087331857' className='call'><img className='icon--connect' src={CallImg} alt='통화하기' /></a>
                         <a href='sms:01087331857' className='call'><img className='icon--connect' src={MessageImg} alt='메시지 보내기'/></a>
@@ -53,12 +53,12 @@ class Connect extends Component {
                         <div className='section__profile--row'>
                             <span className='name'><span className='nickname'>신랑측 혼주</span>정현숙</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-3804-1857</span>
-                            <CopyToClipboard onCopy={this.handleCopy} text='06928256812001'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;<span className='information account'>069-282568-12-001</span></span>
-                            </CopyToClipboard>
                         </div>
                     </div>
-                    <span className='information separation'>&#128172;&nbsp;&nbsp;친지분들과 여러분들 모시고 화촉을 밝히게 되었음을 알리오니 두사람 축복해주세요.</span>
+                    <CopyToClipboard onCopy={this.handleCopy} text='06928256812001'>
+                        <span className='information separation first'>&#127974;&nbsp;&nbsp;우리&nbsp;&nbsp;<span className='information account'>069-282568-12-001</span></span>
+                    </CopyToClipboard>
+                    <span className='information separation end'>&#128172;&nbsp;&nbsp;친지분들과 여러분들 모시고 화촉을 밝히게 되었음을 알리오니 두사람 축복해주세요.</span>
                     <div className='section__connect__group top'>
                         <a href='tel:01038041857' className='call'><img className='icon--connect' src={CallImg} alt='통화하기' /></a>
                         <a href='sms:01038041857' className='call'><img className='icon--connect' src={MessageImg} alt='메시지 보내기'/></a>
@@ -72,7 +72,7 @@ class Connect extends Component {
                             <span className='information'>&#128222;&nbsp;&nbsp;010-9064-8989</span>
                         </div>
                     </div>
-                    <span className='information separation'>&#128172;&nbsp;&nbsp;선남선녀 한쌍의 경이로운 탄생의 현장으로 소중한분들을 초대합니다~</span>
+                    <span className='information separation end-alone'>&#128172;&nbsp;&nbsp;선남선녀 한쌍의 경이로운 탄생의 현장으로 소중한분들을 초대합니다~</span>
                     <div className='section__connect__group top'>
                         <a href='tel:01090648989' className='call'><img className='icon--connect' src={CallImg} alt='통화하기' /></a>
                         <a href='sms:01090648989' className='call'><img className='icon--connect' src={MessageImg} alt='메시지 보내기'/></a>
@@ -84,12 +84,12 @@ class Connect extends Component {
                         <div className='section__profile--row'>
                             <span className='name'><span className='nickname'>신부측 혼주</span>최현숙</span>
                             <span className='information'>&#128222;&nbsp;&nbsp;010-3782-0519</span>
-                            <CopyToClipboard onCopy={this.handleCopy} text='07300104234523'>
-                                <span className='information'>&#127974;&nbsp;&nbsp;국민&nbsp;&nbsp;<span className='information account'>073001-04-234523</span></span>
-                            </CopyToClipboard>
                         </div>
                     </div>
-                    <span className='information separation'>&#128172;&nbsp;&nbsp;사랑하는 저희 딸이 이쁜 새가정을 꾸미려고 합니다. 바쁘시겠지만 함께해주시면 감사하겠습니다.</span>
+                    <CopyToClipboard onCopy={this.handleCopy} text='07300104234523'>
+                        <span className='information separation first'>&#127974;&nbsp;&nbsp;국민&nbsp;&nbsp;<span className='information account'>073001-04-234523</span></span>
+                    </CopyToClipboard>
+                    <span className='information separation end'>&#128172;&nbsp;&nbsp;사랑하는 저희 딸이 이쁜 새가정을 꾸미려고 합니다. 바쁘시겠지만 함께해주시면 감사하겠습니다.</span>
                     <div className='section__connect__group top'>
                         <a href='tel:01037820519' className='call'><img className='icon--connect' src={CallImg} alt='통화하기' /></a>
                         <a href='sms:01037820519' className='call'><img className='icon--connect' src={MessageImg} alt='메시지 보내기'/></a>
@@ -105,7 +105,7 @@ class Connect extends Component {
                             <span className='information'>&#128574;&nbsp;&nbsp;낯선 생명체</span>
                         </div>
                     </div>
-                    <span className='information separation'>&#128172;&nbsp;&nbsp;누나, 형아의 결혼식에 초대한다옹~</span>
+                    <span className='information separation end-alone'>&#128172;&nbsp;&nbsp;누나, 형아의 결혼식에 초대한다옹~</span>
                 </div>
                 <div className='section-card'>
                     <div className='section__profile'>
@@ -116,7 +116,7 @@ class Connect extends Component {
                             <span className='information'>&#128574;&nbsp;&nbsp;다른 강아지</span>
                         </div>
                     </div>
-                    <span className='information separation'>&#128172;&nbsp;&nbsp;아르르르.. 사회성이 떨어지지만 오늘만은 참아주겠어!</span>
+                    <span className='information separation end-alone'>&#128172;&nbsp;&nbsp;아르르르.. 사회성이 떨어지지만 오늘만은 참아주겠어!</span>
                 </div>
             </div>
         );

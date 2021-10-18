@@ -233,16 +233,21 @@ body {
 .account {
   font-weight: bold;
   text-decoration: underline;
-  @media (max-width:375px) {
-    display: inline-block;
-  }
 }
 .separation {
   font-size: 16px;
-  padding: 5px 20px 10px 20px;
+  padding: 2px 20px;
+}
+.first {
+  padding-top: 10px;
 }
 .end {
   padding-top: 0;
+  padding-bottom: 10px;
+  &-alone {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .title {
   margin: 0 20px;
