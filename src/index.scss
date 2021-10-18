@@ -37,9 +37,6 @@ body {
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased;
 }
-h1 {
-  margin: 0;
-}
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -236,6 +233,9 @@ h1 {
 .account {
   font-weight: bold;
   text-decoration: underline;
+  @media (max-width:375px) {
+    display: inline-block;
+  }
 }
 .separation {
   font-size: 16px;
@@ -335,6 +335,7 @@ a {
     margin-top: 30px;
     color: #e1e5e9;
     font-weight: bold;
+    text-align: center;
   }
 }
 
